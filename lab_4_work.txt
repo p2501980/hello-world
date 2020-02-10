@@ -1,0 +1,49 @@
+1.
+//find a certain attribute
+public bool Find(int CustomerId){
+
+mAdressNo = 21;
+mDateAdded = Convert.ToDateTime("08/12/1996")
+
+mAdsressNo = 21;
+mdateAdded = Convert.ToDateTime("08/12/1996");
+
+return true;
+
+
+}
+
+
+
+2.
+//date test
+public void TestDateAdded(){
+
+clsCustomers newCustomerEntity  = new tstCustomers();
+
+Boolean Found = false;
+
+Boolean OK = true;
+
+Int32 AddressNo = 21;
+
+
+Found = AnAdress.Find(AdressNo);
+
+if(AnAdress.DateAdded != Convert.ToDateTime("08/12/96")){
+
+OK = false;
+
+}
+
+Assert.IsTrue(OK);
+
+
+
+}
+
+
+3.
+ using System;
+ using Microsoft.VisualStudio.TestToools.UnitTesting;
+ using Class_Libray 
